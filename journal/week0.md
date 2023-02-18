@@ -40,7 +40,7 @@ aws budgets create-budget \
     --budget file://budget.json \
     --notifications-with-subscribers file://notifications-with-subscribers.json
 ```
-
+![CLI create budget](assets/CreateBudget.png)
 
 ## Homework Challenges
 
