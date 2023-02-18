@@ -21,6 +21,8 @@ sudo ./aws/install
 
 ```
 
+![Proof of using CLI](assets/CreateBudget.png)
+
 I was able to set up the environment variables using the following code 
 
 ```
@@ -29,8 +31,7 @@ export AWS_SECRET_ACCESS_KEY= (I used my secret access key I created earlier on 
 export AWS_DEFAULT_REGION=us-east-1
 
 ```
-I followed the steps from the video and commited by creating a Week -1 branch and was not successful. The code did not save and I was not able to see the commit changes in the gitpod.yml
-
+I followed the steps from the video and commited by creating a Week -1 branch and was not successful. The code did not save and I was not able to see the commit changes in the gitpod.yml . I was helped by a team mate and now I am able to see the Week-1 branch on github however, I don't have the details in it. 
 
 ### Created Json file to create - budget
 
@@ -40,7 +41,8 @@ aws budgets create-budget \
     --budget file://budget.json \
     --notifications-with-subscribers file://notifications-with-subscribers.json
 ```
-![CLI create budget](assets/CreateBudget.png)
+![Proof of creating budget using CLI](assets/CreateBudgetCLI.png)
+)
 
 ## Homework Challenges
 
