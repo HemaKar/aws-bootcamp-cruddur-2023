@@ -35,6 +35,9 @@ I followed the steps from the video and commited by creating a Week -1 branch an
 
 ### Created Json file to create - budget in CLI
 
+Setting up budget proof - I set up only one since setting up two budgets is allowed in free tier.
+I set the budget for $10.
+![Proof of budget using management console](assets/Week0_Budget.png)
 
 ```
 aws budgets create-budget \
@@ -47,15 +50,20 @@ aws budgets create-budget \
 
 ### Billing Alarm 
 
+Setting up Alarm proof
+
+![Proof of Alarm setup using management console](assets//Week0%20Billing%20alarm.png)
+
+
 ## Recreate Logical Design
 [Lucid Charts SHare Link](https://lucid.app/lucidchart/d1407ad3-3f3d-4015-a3b1-36adbcfb8061/edit?viewport_loc=-172%2C-280%2C2218%2C1612%2CO__xqT0hEh-a&invitationId=inv_7919566f-49fa-4510-8171-ea7c72ce9235)
 
-![Logical Design] (assets/)
+![Logical Design] (assets/Logical.png)
 
 ## Recreate Conceptual Design
 [Lucid Charts SHare Link] (https://lucid.app/lucidchart/d1407ad3-3f3d-4015-a3b1-36adbcfb8061/edit?viewport_loc=-1102%2C-358%2C2218%2C1612%2C0_0&invitationId=inv_7919566f-49fa-4510-8171-ea7c72ce9235)
 
-![Conceptual Design] (assets/)
+![Conceptual Design] (assets/CruddurLogicaldesign.png)
 
 ## Homework Challenges
 
