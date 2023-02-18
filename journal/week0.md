@@ -50,20 +50,20 @@ aws budgets create-budget \
 
 ### Billing Alarm 
 
-Setting up Alarm proof
+Setting up Alarm proof using Management Console. The threshold I've provided is for $10 and there are upto 10 free alarms available in the free tier. 
 
-![Proof of Alarm setup using management console](assets//Week0%20Billing%20alarm.png)
+![Proof of Alarm setup using management console](assets/Week0%20Billing%20alarm.png)
 
 
 ## Recreate Logical Design
 [Lucid Charts SHare Link](https://lucid.app/lucidchart/d1407ad3-3f3d-4015-a3b1-36adbcfb8061/edit?viewport_loc=-172%2C-280%2C2218%2C1612%2CO__xqT0hEh-a&invitationId=inv_7919566f-49fa-4510-8171-ea7c72ce9235)
 
-![Logical Design] (assets/Logical.png)
+![Logical Design](assets/Logical.png)
 
 ## Recreate Conceptual Design
-[Lucid Charts SHare Link] (https://lucid.app/lucidchart/d1407ad3-3f3d-4015-a3b1-36adbcfb8061/edit?viewport_loc=-1102%2C-358%2C2218%2C1612%2C0_0&invitationId=inv_7919566f-49fa-4510-8171-ea7c72ce9235)
+[Lucid Charts SHare Link](https://lucid.app/lucidchart/d1407ad3-3f3d-4015-a3b1-36adbcfb8061/edit?viewport_loc=-1102%2C-358%2C2218%2C1612%2C0_0&invitationId=inv_7919566f-49fa-4510-8171-ea7c72ce9235)
 
-![Conceptual Design] (assets/CruddurLogicaldesign.png)
+![Conceptual Design](assets/CruddurLogicaldesign.png)
 
 ## Homework Challenges
 
