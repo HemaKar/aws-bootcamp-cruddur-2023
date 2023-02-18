@@ -40,6 +40,8 @@ aws budgets create-budget \
     --budget file://budget.json \
     --notifications-with-subscribers file://notifications-with-subscribers.json
 ```
+
+
 ## Homework Challenges
 
 ### I've set up MFA's for root and IAM. 
