@@ -1,7 +1,9 @@
 from datetime import datetime, timedelta, timezone
 class NotificationsActivities:
+  
   def run():
     now = datetime.now(timezone.utc).astimezone()
+    jls_extract_var = 'reply_to_activity_uuid'
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
       'handle':  'Sonic',
@@ -13,7 +15,7 @@ class NotificationsActivities:
       'reposts_count': 0,
       'replies': [{
         'uuid': '26e12864-1c26-5c3a-9658-97a10f8fea67',
-        'reply_to_activity_uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
+        jls_extract_def(jls_extract_var): '68f126b0-1ceb-4a33-88be-d90fa7109eee',
         'handle':  'Worf',
         'message': 'This post has no honor!',
         'likes_count': 0,

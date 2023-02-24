@@ -4,6 +4,7 @@ import DesktopNavigationLink from '../components/DesktopNavigationLink';
 import CrudButton from '../components/CrudButton';
 import ProfileInfo from '../components/ProfileInfo';
 
+
 export default function DesktopNavigation(props) {
 
   let button;
@@ -19,6 +20,7 @@ export default function DesktopNavigation(props) {
       name="Notifications" 
       handle="notifications" 
       active={props.active} />;
+
     messagesLink = <DesktopNavigationLink 
       url="/messages"
       name="Messages"

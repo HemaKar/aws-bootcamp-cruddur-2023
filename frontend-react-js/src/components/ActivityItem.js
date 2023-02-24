@@ -9,9 +9,10 @@ import ActivityActionShare  from '../components/ActivityActionShare';
 export default function ActivityItem(props) {
 
   let replies;
-  if (props.activity.replies) {
-    replies = <div className="replies">
-                {props.activity.replies.map(reply => {
+  if (props.activity?.replies && typeof props.activity?.replies === "Array") {
+
+      replies = <div className="replies">
+                {props.activity.replies?.map(reply => {
                 return  <ActivityItem 
                   setReplyActivity={props.setReplyActivity} 
                   setPopped={props.setPopped} 
