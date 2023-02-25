@@ -182,3 +182,27 @@ The use of docker compose is to run multiple containers at the same time. In thi
 3. Port 3000 is for frontend. Make sure it is unlocked.
 4. Backend port 4567 unlocked
 5. Click the frontend link and the application was launched. 
+
+
+### Frontend Notification
+
+### Backend Notification
+
+
+### Postgres and Dynamo DB local 
+1. Run containers
+2. Open docker-compose.yml file
+3. In docker-compose.yml under "Services"
+```
+services:
+  db:
+    image: postgres:13-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - '5432:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+```
