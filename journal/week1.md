@@ -87,5 +87,17 @@ $ docker images
 13. ## Run container
 Run the following command 
 ```
-docker container run --rm -p 4567:4567 -d backend-flask
+docker run --rm -p 4567:4567 -it backend-flask
+FRONTEND_URL="*" BACKEND_URL="*" docker run --rm -p 4567:4567 -it backend-flask
+export FRONTEND_URL="*"
+export BACKEND_URL="*"
+docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
+docker run --rm -p 4567:4567 -it  -e FRONTEND_URL -e BACKEND_URL backend-flask
 ```
+Make sure the port is running and active. IF not quit and run the commanc again. 
+-d is used to run the command in background. 
+
+```
+$docker ps
+```
+lists all the docker images.
