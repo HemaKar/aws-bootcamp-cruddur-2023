@@ -192,7 +192,7 @@ The use of docker compose is to run multiple containers at the same time. In thi
 
 ### Backend Notification
 
-![Front end Notification2](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Setting%20Front%20%26%20backend%20url%20.png)
+![Front end Notification2](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Backend_notifications.png)
 
 
 
