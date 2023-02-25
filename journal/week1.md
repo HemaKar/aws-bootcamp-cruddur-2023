@@ -101,3 +101,8 @@ Make sure the port is running and active. IF not quit and run the commanc again.
 $ docker ps
 ```
 lists all the docker images.
+
+14. Use commands ```compose up``` and ``` compose down``` to open or shutdown the containers. 
+
+## FRONT_END Installations
+----------------------------
