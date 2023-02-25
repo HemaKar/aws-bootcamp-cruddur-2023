@@ -3,8 +3,8 @@
 ## Why to create containers?
 ### Easy to move the application, makes it portable without having to worry about configurations to the environment you deploy. The individual running the app can run it as good as locally. 
 
-## Docker file creation in backend. 
----------------------------------
+## BACKEND INSTALLATION & DOCKER FILE creation. 
+-----------------------------------------------------
 Installed the extension for docker in gitpod and VSCode. 
 
 Steps to Contairize backend. 
