@@ -66,5 +66,6 @@ export BACKEND_URL="*"
 ```
 7. Run the following cmd to check if the python app runs
 
-```python3 -m flask run --host=0.0.0.0 --port=4567```
+```python3 -m flask run --host=0.0.0.0 --port=4567
+```
 8. Hit refresh in the browser link. The backend data populates. 
