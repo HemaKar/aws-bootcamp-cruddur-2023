@@ -58,6 +58,7 @@ cd ..
 5. To resolve create an endpoint by adding /api/activities/home
 
 ```curl -X GET http://localhost:4567/api/activities/home```
+
 6. To run the application we need environment variables and configure the app by using the following code
 
 ```
