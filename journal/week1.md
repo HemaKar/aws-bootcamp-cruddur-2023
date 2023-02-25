@@ -193,8 +193,8 @@ The use of docker compose is to run multiple containers at the same time. In thi
 1. Run containers
 2. Open docker-compose.yml file
 3. In docker-compose.yml under "Services"
+4. POSTGRES
 ```
-services:
   db:
     image: postgres:13-alpine
     restart: always
@@ -206,3 +206,20 @@ services:
     volumes: 
       - db:/var/lib/postgresql/data
 ```
+5. DynamoDB local:
+```
+ dynamodb-local:
+    # https://stackoverflow.com/questions/67533058/persist-local-dynamodb-data-in-volumes-lack-permission-unable-to-open-databa
+    # We needed to add user:root to get this working.
+    user: root
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath ./data"
+    image: "amazon/dynamodb-local:latest"
+    container_name: dynamodb-local
+    ports:
+      - "8000:8000"
+    volumes:
+      - "./docker/dynamodb:/home/dynamodblocal/data"
+    working_dir: /home/dynamodblocal
+```
+6.Docker -> compose up
+
