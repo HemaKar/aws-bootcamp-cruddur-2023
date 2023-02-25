@@ -70,3 +70,17 @@ export BACKEND_URL="*"
 python3 -m flask run --host=0.0.0.0 --port=4567
 ```
 8. Hit refresh in the browser link. The backend data populates. 
+9. Ctrl + C (quit)
+10. ## Build Container
+To build a container you need to be in the root directory and run the following command 
+```
+docker build -t  backend-flask ./backend-flask
+```
+-t stands for tag. 
+./ backend-flask means looks in current directory. 
+By default docker gives "latest" tag if not explicitly set. 
+11. The images in gitpod for the backend is listed in the left side corner and can be seen by clicking on the "fish" symbol.
+12. The images can also be listed by using the command 
+```
+$ docker images
+```
