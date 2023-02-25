@@ -43,3 +43,17 @@ EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
 ```
+2. As per application you create containers, in this case it is python.app
+Run python
+```
+cd backend-flask
+export FRONTEND_URL="*"
+export BACKEND_URL="*"
+python3 -m flask run --host=0.0.0.0 --port=4567
+cd ..
+```
+
+3. Check port '4567' in ports tab to be opened. You unlock the port by clicking on the lock button. 
+4. Try clicking on the link, it gave error 404. Server was running but the page was not found. 
+5. To resolve create an endpoint by adding /api/activities/home
+```curl -X GET http://localhost:4567/api/activities/home```
