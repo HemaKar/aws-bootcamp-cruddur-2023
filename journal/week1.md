@@ -98,6 +98,6 @@ Make sure the port is running and active. IF not quit and run the commanc again.
 -d is used to run the command in background. 
 
 ```
-$docker ps
+$ docker ps
 ```
 lists all the docker images.
