@@ -60,13 +60,8 @@ cd ..
 ```curl -X GET http://localhost:4567/api/activities/home```
 6. To run the application we need environment variables and configure the app by using the following code
 
-``` docker run --rm -p 4567:4567 -it backend-flask
-FRONTEND_URL="*" BACKEND_URL="*" docker run --rm -p 4567:4567 -it backend-flask
+```
 export FRONTEND_URL="*"
 export BACKEND_URL="*"
-docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
-docker run --rm -p 4567:4567 -it  -e FRONTEND_URL -e BACKEND_URL backend-flask
-unset FRONTEND_URL="*"
-unset BACKEND_URL="*" 
 ```
 
