@@ -184,6 +184,8 @@ The use of docker compose is to run multiple containers at the same time. In thi
 5. Click the frontend link and the application was launched. 
 
 
+![Docker Compose](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Docker-composeyml.PNG)
+
 ### Frontend Notification
 
 ![Front end Notification1](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Frontend_notification.PNG)
