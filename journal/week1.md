@@ -185,6 +185,7 @@ The use of docker compose is to run multiple containers at the same time. In thi
 
 
 ### Frontend Notification
+![Front end Notification1](/asset/assets/Frontend_notification.PNG)
 
 ### Backend Notification
 
