@@ -84,3 +84,8 @@ By default docker gives "latest" tag if not explicitly set.
 ```
 $ docker images
 ```
+13. ## Run container
+Run the following command 
+```
+docker container run --rm -p 4567:4567 -d backend-flask
+```
