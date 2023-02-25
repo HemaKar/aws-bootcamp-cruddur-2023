@@ -107,3 +107,11 @@ lists all the docker images.
 
 ## FRONT_END Installations
 ----------------------------
+
+1. Run NPM install using the following code
+
+```
+cd frontend-react-js
+npm i
+
+```
