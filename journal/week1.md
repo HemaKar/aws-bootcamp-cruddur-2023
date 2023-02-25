@@ -239,3 +239,9 @@ The use of docker compose is to run multiple containers at the same time. In thi
 
 6.Docker -> compose up
 
+## ENDPOINT for OpenAPI Documentation
+-----------------------------
+![Endpoint for API Documentation](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Endpoint%20for%20the%20OpenAI%20document.PNG)
+
+
+
