@@ -174,5 +174,11 @@ networks:
   internal-network:
     driver: bridge
     name: cruddur
-    ```
     
+```
+    
+The use of docker compose is to run multiple containers at the same time. In this case it is the frontend and backend containers. 
+
+3. Port 3000 is for frontend. Make sure it is unlocked.
+4. Backend port 4567 unlocked
+5. Click the frontend link and the application was launched. 
