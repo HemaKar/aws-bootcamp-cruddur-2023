@@ -213,6 +213,10 @@ The use of docker compose is to run multiple containers at the same time. In thi
     volumes: 
       - db:/var/lib/postgresql/data
 ```
+
+![Postgres](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Add%20DBexplorer%20to%20vscodePostgres.PNG)
+
+
 5. DynamoDB local:
 ```
  dynamodb-local:
@@ -228,5 +232,8 @@ The use of docker compose is to run multiple containers at the same time. In thi
       - "./docker/dynamodb:/home/dynamodblocal/data"
     working_dir: /home/dynamodblocal
 ```
+
+![DynamoDB local](https://github.com/HemaKar/aws-bootcamp-cruddur-2023/blob/main/journal/assets/DynamoDB_created%20in%20AWS%20using%20CLI.PNG)
+
 6.Docker -> compose up
 
